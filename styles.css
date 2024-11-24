@@ -95,7 +95,7 @@ button a{
     border-radius: 5px;
     padding: 25px;
     min-height: 120px;
-    margin:25px 25px 25px 25px;
+    margin:20px 20px ;
     text-align: justify;
     line-height: 25px;
 }
@@ -164,7 +164,7 @@ footer{
         height: 30px;
         cursor: pointer;
         position: absolute;
-        right: 30px;
+        right: 64px;
         top: 40px;
     }
     .menu-icon span{
@@ -211,19 +211,26 @@ footer{
         font-size:20px;
         line-height:16px;
     }
+    .container p{
+        font-size: 14px;
+    }
     #one{
         display: block;
     }
     #management{
-        width: 85%;
-        margin-left: 15px;
+        width: 75%;
+        margin-left: 10px;
 
+    }
+    #apply{
+        width: 75%;
+        margin-left: 10px;
     }
     #applying{
         display: block;
     }
     #applying img{
-        width: 90%;
+        width: 80%;
         height: 80%;
     }
     #form label{
