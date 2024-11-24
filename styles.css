@@ -94,6 +94,7 @@ button a{
     box-shadow:  rgb(188, 188, 230) 1px 1px 4px 4px ;
     border-radius: 5px;
     padding: 25px;
+    min-height: 120px;
     margin:25px 25px 25px 25px;
     text-align: justify;
     line-height: 25px;
@@ -212,6 +213,11 @@ footer{
     }
     #one{
         display: block;
+    }
+    #management{
+        width: 85%;
+        margin-left: 15px;
+
     }
     #applying{
         display: block;
