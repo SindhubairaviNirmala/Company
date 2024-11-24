@@ -164,7 +164,7 @@ footer{
         height: 30px;
         cursor: pointer;
         position: absolute;
-        right: 135px;
+        right: 30px;
         top: 40px;
     }
     .menu-icon span{
@@ -207,17 +207,17 @@ footer{
     h1{
         font-size: 35px;
     }
-    h3{
+    /*h3{
         font-size:20px;
         line-height:16px;
     }
     .container p{
         font-size: 14px;
-    }
+    }*/
     #one{
         display: block;
     }
-    #management{
+    /*#management{
         width: 78%;
         margin-left: 10px;
 
@@ -225,13 +225,14 @@ footer{
     #apply{
         width: 78%;
         margin-left: 10px;
-    }
+    }*/
     #applying{
         display: block;
     }
     #applying img{
-        width: 80%;
-        height: 80%;
+        width: 350px;
+        height: 350px;
+        margin-left: 30px;
     }
     #form label{
         display: flex;
