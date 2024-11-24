@@ -164,7 +164,7 @@ footer{
         height: 30px;
         cursor: pointer;
         position: absolute;
-        right: 95px;
+        right: 135px;
         top: 40px;
     }
     .menu-icon span{
@@ -218,12 +218,12 @@ footer{
         display: block;
     }
     #management{
-        width: 75%;
+        width: 78%;
         margin-left: 10px;
 
     }
     #apply{
-        width: 75%;
+        width: 78%;
         margin-left: 10px;
     }
     #applying{
