@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+#menu-icon{ 
+    position: absolute;
+    left: 93%;
+    top: 40px;
+    display: none;
+} 
+
+img{
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+    
+}
+
+
+header{ 
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100px;
+    margin-top: -120px;
+    background-color: white;
+    border-bottom: solid 1px rgb(220, 218, 218);
+ } 
+
+ 
+nav{
+    display: block;
+}
+nav ul{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 300px;
+}    
+nav ul li{
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+nav ul li a:hover{
+    font-size:21px; 
+    transition: 0.5s;
+}
+#title{
+    margin-top: 120px;
+}
+button{
+    padding: 10px;
+    background-color:rgb(21, 21, 245);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 120px;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.hire{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    margin-left: 380px;
+    color: rgb(21, 21, 245);
+}
+.hire img{
+    width: 60px;
+    height: 60px;
+}
+#one{
+    display: flex;
+}
+#management{
+    padding: 30px;
+    border: solid 2px rgb(21, 21, 245);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px rgb(150, 150, 241);
+    text-align: justify;
+    line-height: 25px;
+    margin: 20px 10px;
+    width: 50%;
+    min-height:auto;
+}
+h3,h5{
+    text-align: center;
+}
+h3{
+    color: rgb(21, 21, 245);
+}
+#hide{
+    display: none;
+}
+#applying{
+    display: flex;
+}
+#apply{
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: gainsboro;
+    box-shadow: 1px 1px 3px 3px rgb(150, 150, 241);
+    text-align: center;
+    line-height: 25px;
+    margin: 20px 10px;
+    width: 40%;
+}
+#form label{
+    display: flex;
+    margin: 20px 0px 20px 70px;
+}
+input{
+    width: 70%;
+    margin-left: 10px;
+}
+#relax{
+    width: 400px;
+    height: 300px;
+    margin-left: 70px;
+}
+#apply h2{
+    color: rgb(21, 21, 245);
+}
+#name,#email{
+    background-color: gainsboro;
+    border: none;
+    border-bottom: solid 2px black;
+}
+#name,#email:focus{
+    outline: none;
+}
+footer{
+    padding: 15px;
+}
+
+/*mobile responsive design*/
+@media(max-width:768px){
+    #menu-icon{
+        display: block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        margin-left: -25px;
+    }
+    #menu-icon span{
+        display: block;
+        width: 30px;
+        height: 5px;
+        background-color: #333;
+        margin-bottom: 5px;
+    }
+    nav{
+        background-color:rgb(21, 21, 245) ;
+        border: none;
+        border-radius: 15px 0 15px 15px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 220px;
+        display: none;
+    }
+    nav ul li a{
+        color: white;
+    }
+    nav ul{
+        display: block;
+        margin-left: 5px;
+    }
+    nav ul li{
+        padding: 10px;
+        text-align: left;
+    }
+    h1{
+        font-size: 45px;
+        margin-left: 50px;
+    }
+    .hire img{
+        width: 50px;
+        height: 50px;
+    }
+    #one{
+        display: block;
+    }
+    #management{
+        width: 83%;
+    }
+    #applying{
+        display: block;
+    }
+    #apply{
+        width: 83%;
+    }
+    #form label{
+        display: flex;
+        margin: 20px 0px 20px 70px;
+    }
+    #relax{
+        width: 400px;
+        height: 300px;
+        margin-left: 50px;
+    }
+}
