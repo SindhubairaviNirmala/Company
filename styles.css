@@ -69,7 +69,10 @@ main{
 }
 h1{
     color: rgb(21, 21, 245);
-    font-size: 50px;
+    font-size: 55px;
+}
+.container p{
+    font-size: 16px;
 }
 button{
     padding: 10px;
@@ -102,11 +105,11 @@ button a{
 h3{
     color: rgb(21, 21, 245);
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
 }
 h5{
-    text-align: center
+    text-align: center;
 }
 #one{
     display: flex;
@@ -123,6 +126,7 @@ h5{
 }
 #apply h2{
     color: rgb(21, 21, 245);
+    font-size: 35px;
 }
 #applying{
     display: flex;
@@ -196,7 +200,12 @@ footer{
         padding: 10px;
         text-align: left;
     }
-
+    h1{
+        font-size: 25px;
+    }
+    .container p{
+        font-size: 10px;
+    }
     #title img{
         width: 60px;
         height: 60px;
@@ -207,25 +216,24 @@ footer{
     h1{
         font-size: 35px;
     }
-    /*h3{
+    h3{
         font-size:20px;
         line-height:16px;
     }
-    .container p{
-        font-size: 14px;
-    }*/
+    
     #one{
         display: block;
     }
-    /*#management{
-        width: 78%;
-        margin-left: 10px;
-
+    #management{
+        width: 91%;
+        margin-left: 20px;
+        font-size: 15px;
     }
     #apply{
-        width: 78%;
-        margin-left: 10px;
-    }*/
+        width: 91%;
+        margin-left: 20px;
+        font-size: 15px;
+    }
     #applying{
         display: block;
     }
