@@ -40,6 +40,7 @@ nav ul{
     display: flex;
     margin-top: 30px;
     margin-left: 300px;
+    
 }    
 nav ul li{
     padding: 20px;
@@ -97,7 +98,7 @@ h1{
     box-shadow: 1px 1px 3px 3px rgb(150, 150, 241);
     text-align: justify;
     line-height: 25px;
-    margin: 20px 10px;
+    margin: 20px 40px;
     width: 50%;
     min-height:auto;
 }
@@ -119,18 +120,18 @@ h3{
     border-radius: 10px;
     background-color: gainsboro;
     box-shadow: 1px 1px 3px 3px rgb(150, 150, 241);
-    text-align: center;
     line-height: 25px;
-    margin: 20px 10px;
+    text-align: center;
+    margin: 20px 40px;
     width: 40%;
 }
 #form label{
     display: flex;
-    margin: 20px 0px 20px 70px;
+    margin-top: 20px;
+    margin-left: 90px;
 }
 input{
-    width: 70%;
-    margin-left: 10px;
+    width: 50%;
 }
 #relax{
     width: 400px;
@@ -194,7 +195,7 @@ footer{
         text-align: left;
     }
     h1{
-        font-size: 45px;
+        font-size: 30px;
         margin-left: 50px;
     }
     .hire img{
@@ -205,13 +206,13 @@ footer{
         display: block;
     }
     #management{
-        width: 83%;
+        width: 70%;
     }
     #applying{
         display: block;
     }
     #apply{
-        width: 83%;
+        width: 70%;
     }
     #form label{
         display: flex;
