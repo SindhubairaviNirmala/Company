@@ -91,10 +91,10 @@ h1{
     width: 60px;
     height: 60px;
 }
-#one{
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#ten-one,#ten-two{ 
     display: flex;
-}
-#management,#projects{
+} 
+#management,#projects,#capital,#metal,#fund,#geo,#aero,#adas,#ai,#corporate,#web,#copy,#present,#brand,#cons,#office,#business,#evtol,#creater,#social,#public,#recruitment,#finance,#software{
     padding: 30px;
     border: solid 2px rgb(21, 21, 245);
     border-radius: 10px;
@@ -111,7 +111,7 @@ h3,h5{
 h3{
     color: rgb(21, 21, 245);
 }
-#hide,#hide1{
+#hide,#hide1,#hide2,#hide3,#hide4,#hide5,#hide6,#hide7,#hide8,#hide9,#hide10,#hide11,#hide12,#hide13,#hide14,#hide15,#hide16,#hide17,#hide18,#hide19,#hide20,#hide21,#hide22,#hide23{
     display: none;
 }
 #applying{
@@ -202,16 +202,16 @@ footer{
     }
     h1{
         font-size: 30px;
-        margin-left: 50px;
+        margin-left: 100px;
     }
     .hire img{
         width: 50px;
         height: 50px;
     }
-    #one{
+    #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#ten-one,#ten-two{
         display: block;
     }
-    #management,#projects{
+    #management,#projects,#capital,#metal,#fund,#geo,#aero,#adas,#ai,#corporate,#web,#copy,#present,#brand,#cons,#office,#business,#evtol,#creater,#social,#recruitment,#public,#finance,#software{
         width: 70%;
     }
     #applying{
