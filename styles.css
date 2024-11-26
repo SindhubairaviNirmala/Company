@@ -62,6 +62,9 @@ nav ul li a:hover{
 #title{
     margin-top: 120px;
 }
+#title p{
+    font-size: 16px;
+}
 button{
     padding: 10px;
     background-color:rgb(21, 21, 245);
@@ -98,7 +101,7 @@ h1{
     box-shadow: 1px 1px 3px 3px rgb(150, 150, 241);
     text-align: justify;
     line-height: 25px;
-    margin: 20px 40px;
+    margin: 20px 20px;
     width: 50%;
     min-height:auto;
 }
@@ -122,7 +125,7 @@ h3{
     box-shadow: 1px 1px 3px 3px rgb(150, 150, 241);
     line-height: 25px;
     text-align: center;
-    margin: 20px 40px;
+    margin: 20px 20px;
     width: 40%;
 }
 #form label{
@@ -194,6 +197,9 @@ footer{
         padding: 10px;
         text-align: left;
     }
+    #title p{
+        font-size: 12px;
+    }
     h1{
         font-size: 30px;
         margin-left: 50px;
@@ -219,8 +225,8 @@ footer{
         margin: 20px 0px 20px 70px;
     }
     #relax{
-        width: 400px;
-        height: 300px;
-        margin-left: 50px;
+        width: 350px;
+        height: 250px;
+        margin-left: 40px;
     }
 }
