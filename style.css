@@ -257,6 +257,7 @@ footer{
         line-height: 40px;
         position: absolute;
         right: 20px;
+        top: 100px;
         text-align: left;
     }
     #home h3 span{
