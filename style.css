@@ -56,44 +56,83 @@ nav ul li a{
 
 nav ul li a:hover{
     font-size:21px; 
+    color: rgb(21, 21, 245);
     transition: 0.5s;
 }
-h1{
-    font-size: 55px;
-    text-align: center;
-    margin-top: 100px;
-}
-#ev{
-    width: 200px;
-    height: 150px;
-    position: relative;
-    top: 40px;
-}
-span{
-    font-size: 90px;
-    color: rgb(21, 21, 245);
-}
+
 #home{
-    margin-left: -15px;
+    background-image: url('home.jpg');
+    margin-top: 90px;
+    height: 470px;
+    background-size: cover;
+    background-position: center;
 }
-#home p{
-    font-size: 16px;
-    color: rgb(21, 21, 245);
-    font-style: italic;
+#opacity{
+    height: 470px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.842);
+    opacity: 0.3;
+}
+#home h3{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 50px;
+    width: 50%;
+    position: absolute;
+    top: 190px;
+    right: 180px;
     text-align: center;
 }
-
-button{
-    padding: 10px;
-    background-color:rgb(21, 21, 245);
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
+#home h3 span{
+    color: rgb(56, 56, 57);
+    font-size: 60px;
+}
+#ev h4{
+    width: 70%;
+    padding: 30px;
+    border: solid black 2px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-right: 110px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
 }
 
-button a{
-    text-decoration: none;
-    color: whitesmoke;
+#type{
+    display: flex;
+}
+#type div{
+    padding: 40px;
+    box-shadow: 1px 1px 3px 3px rgba(60, 57, 244, 0.726);
+    border: none;
+    border-radius: 110px;
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+}
+#type div img{
+    width: 90px;
+    height: 90px;
+}
+#bene{
+    display: flex;
+    flex-wrap: wrap;
+}
+#bene div{
+    padding: 40px;
+    box-shadow: 1px 1px 3px 3px rgb(1, 109, 242) ;
+    border: none;
+    border-radius: 110px;
+    text-align: center;
+    margin: 30px  70px;
+    width: 30%;
+}
+#benefits img{
+    width: 500px;
+    height: 350px;
 }
 .about{
     margin-top: 20px;
@@ -110,7 +149,7 @@ button a{
 h2{
     font-size: 25px;
     padding: 15px;
-    color:rgb(21, 21, 245) ;  
+    color:rgb(1, 109, 242) ;  
  }
  .about p{
     text-indent: 20px;
@@ -186,15 +225,20 @@ footer{
         margin-bottom: 5px;
     }
     nav{
-        background-color:rgb(21, 21, 245) ;
+        background-color:rgb(1, 109, 242) ;
         border: none;
         border-radius: 15px 0 15px 15px;
         padding: 10px;
         margin-left: 10px;
         margin-top: 10px;
         width: 200px;
-        height: 220px;
+        height: 230px;
         display: none;
+    }
+    nav ul li a:hover{
+        font-size:21px;
+        color: white; 
+        transition: 0.5s;
     }
     nav ul li a{
         color: white;
@@ -207,18 +251,38 @@ footer{
         padding: 10px;
         text-align: left;
     }
-    h1{ 
-        font-size: 20px;
+    #home h3{
+        font-size: 30px;
+        width: 80%;
+        line-height: 40px;
+        position: absolute;
+        right: 20px;
+        text-align: left;
     }
-    #ev{
-        width: 50px;
-        height: 50px;
-        position: relative;
-        top: 15px;
-
-    }
-    h1 span{
+    #home h3 span{
         font-size: 40px;
+    }
+    #ev h4{
+        margin-left: 47px;
+        width: 70%;
+    }
+    #type{
+        display: block;
+    }
+    #type div{
+        margin-left: 80px;
+        width: 50%;
+    }
+    #bene{
+        display: block;
+    }
+    #benefits img{
+        width: 300px;
+        height: 300px;
+    }
+    #bene div{
+        margin-left: 80px;
+        width: 50%;
     }
     .about{
         display: block;
@@ -263,9 +327,4 @@ footer{
     h2{
         font-size: 35px;
     }
-    #home p{
-        font-size: 10px;
-
-    } 
 }
-

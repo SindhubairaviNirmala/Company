@@ -68,7 +68,7 @@ nav ul li a:hover{
 }
 button{
     padding: 10px;
-    background-color:rgb(21, 21, 245);
+    background-color:rgb(1, 109, 242);
     color: whitesmoke;
     border: none;
     border-radius: 5px;
@@ -87,7 +87,7 @@ button a{
 h1{
     font-size: 50px;
     margin-left: 100px;
-    color: rgb(21, 21, 245);
+    color: rgb(1, 109, 242);
 }
 .hire img{
     width: 60px;
@@ -116,7 +116,7 @@ h3,h5{
     text-align: center;
 }
 h3{
-    color: rgb(21, 21, 245);
+    color:rgb(1, 109, 242);
 }
 #hide,#hide1,#hide2,#hide3,#hide4,#hide5,#hide6,#hide7,#hide8,#hide9,#hide10,#hide11,#hide12,#hide13,#hide14,#hide15,#hide16,#hide17,#hide18,#hide19,#hide20,#hide21,#hide22{
     display: none;
@@ -149,7 +149,7 @@ input{
     margin-left: 70px;
 }
 #apply h2{
-    color: rgb(21, 21, 245);
+    color: rgb(1, 109, 242);
 }
 #name,#email{
     background-color: gainsboro;
@@ -183,15 +183,20 @@ footer{
         margin-bottom: 5px;
     }
     nav{
-        background-color:rgb(21, 21, 245) ;
+        background-color:rgb(1, 109, 242);
         border: none;
         border-radius: 15px 0 15px 15px;
         padding: 10px;
         margin-left: 10px;
         margin-top: 10px;
         width: 200px;
-        height: 220px;
+        height: 230px;
         display: none;
+    }
+    nav ul li a:hover{
+        font-size:21px; 
+        color: white;
+        transition: 0.5s;
     }
     nav ul li a{
         color: white;
