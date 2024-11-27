@@ -263,14 +263,14 @@ footer{
         font-size: 40px;
     }
     #ev h4{
-        margin-left: 35px;
+        margin-left: 33px;
         width: 70%;
     }
     #type{
         display: block;
     }
     #type div{
-        margin-left: 67px;
+        margin-left: 65px;
         width: 50%;
     }
     #bene{
@@ -281,7 +281,7 @@ footer{
         height: 300px;
     }
     #bene div{
-        margin-left: 67px;
+        margin-left: 65px;
         width: 50%;
     }
     .about{
