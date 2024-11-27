@@ -195,11 +195,4 @@ function showU(){
     twentythree.style.display="none"
  }
  
- var twentyfour=document.getElementById("twentyfour")
-var hide23=document.getElementById("hide23")
-
-function showV(){
-    hide23.style.display="block"
-    twentyfour.style.display="none"
- }
  
