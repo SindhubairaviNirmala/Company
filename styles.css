@@ -61,6 +61,7 @@ nav ul li a:hover{
 }
 #title{
     margin-top: 120px;
+    display: flex;
 }
 #title p{
     font-size: 16px;
@@ -81,6 +82,7 @@ button a{
 }
 .hire{
     display: flex;
+    margin-top: 30px;
 }
 h1{
     font-size: 50px;
@@ -91,14 +93,19 @@ h1{
     width: 60px;
     height: 60px;
 }
+#car{
+    width: 400px;
+    height: 350px;
+    margin-top: -90px;
+}
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#ten-one,#ten-two{ 
     display: flex;
 } 
 #management,#projects,#capital,#metal,#fund,#geo,#aero,#adas,#ai,#corporate,#web,#copy,#present,#brand,#cons,#office,#business,#evtol,#creater,#social,#public,#recruitment,#finance{
     padding: 30px;
-    border: solid 2px rgb(21, 21, 245);
+    /*border: solid 2px rgb(21, 21, 245);*/
     border-radius: 10px;
-    box-shadow: 1px 1px 3px 3px rgb(150, 150, 241);
+    box-shadow: 1px 1px 5px 5px rgb(143, 143, 146);
     text-align: justify;
     line-height: 25px;
     margin: 20px 20px;
@@ -196,6 +203,13 @@ footer{
     nav ul li{
         padding: 10px;
         text-align: left;
+    }
+    #title{
+        display: block;
+    }
+    #car{
+        margin-top: 5px;
+        margin-left: -30px;
     }
     #title p{
         font-size: 12px;

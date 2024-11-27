@@ -63,9 +63,18 @@ h1{
     text-align: center;
     margin-top: 100px;
 }
+#ev{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 40px;
+}
 span{
     font-size: 90px;
     color: rgb(21, 21, 245);
+}
+#home{
+    margin-left: -15px;
 }
 #home p{
     font-size: 16px;
@@ -200,6 +209,11 @@ footer{
     }
     h1{ 
         font-size: 25px;
+    }
+    #ev{
+        width: 100px;
+        height: 100px;
+
     }
     h1 span{
         font-size: 45px;
