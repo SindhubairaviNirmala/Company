@@ -110,6 +110,7 @@ h1{
     line-height: 25px;
     margin: 20px 20px;
     width: 40%;
+    font-size: medium;
     min-height:10vh;
 }
 h3,h5{
