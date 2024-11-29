@@ -122,6 +122,8 @@ nav ul li a:hover{
 #bene{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 #bene #div{
     padding: 40px;
@@ -129,14 +131,15 @@ nav ul li a:hover{
     border: none;
     border-radius: 110px;
     text-align: center;
-    margin:  20px 70px;
-    width: 30%;
+    margin: 20px;
+    width: 24%;
     display: flex;
 }
 #zero,#low,#ride,#perf{
     width: 50px;
     height: 50px;
     margin-right: 20px;
+    margin-top: 30px;
 }
 .about{
     margin-top: 20px;
@@ -162,9 +165,9 @@ h2{
  }
 
  .about img{
-    width: 400px;
+    width: 350px;
     height: 200px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 10px;
     margin-top: 20px;
     border-radius: 150px;
@@ -275,7 +278,7 @@ footer{
         font-size: 40px;
     }
     #ev h4{
-        margin-left: 30px;
+        margin-left: 15px;
         width: 70%;
     }
     #type{
@@ -292,12 +295,14 @@ footer{
         margin-left: 62px;
         width: 50%;
         text-align: justify;
+        display: block;
     }
-    #zero,#low,#ride,#perf{
-        margin-top: 30px;
-    }
+    
     .about{
         display: block;
+    }
+    #zero,#low,#ride,#perf{
+        margin-top: 5px;
     }
     .about-text{
         width: 92%;
@@ -305,6 +310,9 @@ footer{
         line-height: 25px;
         margin-left: 16px;
         
+    }
+    .about img {
+        margin-left: 20px;
     }
     #design{
         display: block;
@@ -328,9 +336,6 @@ footer{
         margin-left: 20px;
     }
     #work img{
-        margin-left:40px ;
-    }
-    .about img{
         margin-left:40px ;
     }
     h4{
