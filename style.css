@@ -84,21 +84,23 @@ nav ul li a:hover{
     text-align: center;
 }
 #home h3 span{
-    color: rgb(56, 56, 57);
+    color: rgb(39, 39, 39);
     font-size: 60px;
 }
 #ev h4{
     width: 70%;
-    padding: 30px;
-    border: solid black 2px;
-    border-radius: 100px;
+    padding: 40px;
+    /* border: solid black 2px; */
+    border-radius: 60px;
+    box-shadow:  rgb(128, 142, 160) 1px 1px 3px 3px;
     margin-top: 30px;
-    margin-left: 130px;
+    margin-left: 120px;
     margin-right: 110px;
     margin-bottom: 30px;
     font-size: 20px;
     line-height: 30px;
     text-align: justify;
+    text-indent: 40px;
 }
 
 #type{
@@ -106,9 +108,9 @@ nav ul li a:hover{
 }
 #type div{
     padding: 40px;
-    box-shadow: 1px 1px 3px 3px rgba(60, 57, 244, 0.726);
+    box-shadow: 1px 1px 3px 3px rgb(128, 142, 160);
     border: none;
-    border-radius: 110px;
+    border-radius: 60px;
     text-align: center;
     margin: 20px;
     width: 30%;
@@ -121,18 +123,20 @@ nav ul li a:hover{
     display: flex;
     flex-wrap: wrap;
 }
-#bene div{
+#bene #div{
     padding: 40px;
-    box-shadow: 1px 1px 3px 3px rgb(1, 109, 242) ;
+    box-shadow: 1px 1px 3px 3px rgb(128, 142, 160) ;
     border: none;
     border-radius: 110px;
     text-align: center;
-    margin: 30px  70px;
-    width: 90%;
+    margin:  20px 70px;
+    width: 30%;
+    display: flex;
 }
-#benefits img{
-    width: 500px;
-    height: 350px;
+#zero,#low,#ride,#perf{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
 }
 .about{
     margin-top: 20px;
@@ -141,15 +145,16 @@ nav ul li a:hover{
 }
 
 .about-text{
-    width: 800px;
+    width: 80%;
     text-align: justify;
     line-height: 28px;
     margin-left: 40px;
+    margin-top: 50px;
 }
 h2{
     font-size: 25px;
     padding: 15px;
-    color:rgb(1, 109, 242) ;  
+    color:rgb(1, 109, 242);  
  }
  .about p{
     text-indent: 20px;
@@ -157,11 +162,17 @@ h2{
  }
 
  .about img{
-    width: 83%;
-    height: 100%;
-    margin-left: 80px;
+    width: 400px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 150px;
     
  }
+.images{
+    display: block;
+}
 #design{
     
     display: flex;
@@ -264,26 +275,26 @@ footer{
         font-size: 40px;
     }
     #ev h4{
-        margin-left: 33px;
+        margin-left: 30px;
         width: 70%;
     }
     #type{
         display: block;
     }
     #type div{
-        margin-left: 65px;
+        margin-left: 62px;
         width: 50%;
     }
     #bene{
         display: block;
     }
-    #benefits img{
-        width: 300px;
-        height: 300px;
-    }
-    #bene div{
-        margin-left: 65px;
+    #bene #div{
+        margin-left: 62px;
         width: 50%;
+        text-align: justify;
+    }
+    #zero,#low,#ride,#perf{
+        margin-top: 30px;
     }
     .about{
         display: block;
